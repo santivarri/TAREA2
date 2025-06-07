@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TAREA</title>
+    <title>Articulos Escolares</title>
+    <!--enlace externo css-->
     <link rel="stylesheet" href="css/styletarea.css">
 </head>
 
@@ -16,7 +17,7 @@
 <header>  
     <!--Icono y enlaces dentro de la pagina--> 
 <link rel="shortcut icon" href="img/tarea.jpeg"> </link>    
-<h1>LA ESCUELA</h1>
+<h1>Galería de Artículos Escolares</h1>
 
  <!--Enlaces de referencia en la página-->   
 
@@ -24,30 +25,42 @@
 
 
 <div>
- <img src="img/basquet.jpg" alt="basquet" width="300" height="300"> 
- <img src="img/futbol.jpg" alt="futbol" width="300" height="300"> 
- <img src="img/La cuerda.jpg" alt="La cuerda" width="300" height="300"> 
- <img src="img/escuela.jpg" alt="escuela" width="300" height="300">
+ <img src="img/basquet.jpg" alt="basquet" width="250" height="250"> 
+ <img src="img/futbol.jpg" alt="futbol" width="250" height="250"> 
+ <img src="img/La cuerda.jpg" alt="La cuerda" width="250" height="250"> 
+ <img src="img/escuela.jpg" alt="escuela" width="250" height="250">
 </div>  
 
 <article class="galery">
     <h2>No dejes de pasar por nuestra galeria de artículos escolares</h2>
-   <div>
-        <div class="image-item">
-            <input type="image" src="img/cuaderno.jpeg" alt="Cuaderno" width="120" height="120">
-        </div>
-        <div class="image-item">    
-        <input type="image" src="img/lapiz.jpeg" alt="Lápiz" width="120" height="120">
-    </div>
-        <div class="image-item">
-            <input type="image" src="img/goma.jpeg" alt="goma" width="120" height="120">
-        </div>
-        <div class="image-item">
-            <input type="image" src="img/estuche.jpeg" alt="estuche" width="120" height="120">
-        
-   </div>
+    <div>
+            <div class="box">
+                <img src="img/cuaderno.jpeg" alt="CUADERNOS" width="100" height="100"
+                     data-id="prod-cuaderno-001" data-name="Cuaderno" data-price="3500">
+                <p>DESDE 3.500$</p>
+            </div>
 
-</article>
+            <div class="box">
+                <img src="img/lapiz.jpeg" alt="LÁPICES" width="100" height="100"
+                     data-id="prod-lapiz-002" data-name="Lápices (caja)" data-price="7500">
+                <p>POR CAJA 7.500$</p>
+            </div>
+
+            <div class="box">
+                <img src="img/goma.jpeg" alt="GOMAS" width="100" height="100"
+                     data-id="prod-goma-003" data-name="Goma" data-price="1500">
+                <p>C/UNA 1.500$</p>
+            </div>
+
+            <div class="box">
+                <img src="img/estuche.jpeg" alt="CARTUCHERAS" width="100" height="100"
+                     data-id="prod-cartuchera-004" data-name="Cartuchera" data-price="7800">
+                <p>DESDE 7.800$</p>
+            </div>
+        </div>
+    </article>
+
+    <script src="script.js"></script>
 </body>
 
 <footer>
